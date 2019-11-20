@@ -7,4 +7,4 @@ A nginx configuration that makes CORS easy
    with the full path (and optionally port) of the service you're proxying, e.g. https://app1.company.com:232
 3. Replace the built in configuration file (in Windows this is /nginx/conf/nginx.conf) with the edited file from **(2)**.
 4. Start nginx. 
-5. Enjoy. By default, per the configuration nginx listens at port 8080. So requests that go to localhost:8080 will be proxied to `YOUR-LINK-GOES-HERE`. 
+5. By default, per the configuration nginx listens at port 8080. So requests that go to localhost:8080 will be proxied to `YOUR-LINK-GOES-HERE`. 
